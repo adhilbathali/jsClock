@@ -1,0 +1,87 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+
+h1{
+    font-size: 6rem;
+    font-family: roboto;
+    color: #333;
+}
+
+#clk-body{
+    height: 30rem;
+    width: 80rem;
+    border-radius: 5rem;
+    border: 1.3rem solid #FF71A9;
+    background-color: #7950A6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 10px 10px 8px 2px rgba(0, 0, 0, 0.445);
+}
+
+#screen{
+    height: 95%;
+    width: 95%;
+    background-color: white;
+    border-radius: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    box-shadow: inset 10px 10px 8px 2px rgba(0, 0, 0, 0.445);
+}
+
+#screen img{
+    width: 40rem;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 12%;
+    left: 85%;
+    
+}
+
+.time{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#screen{
+    font-size: 10rem;
+    font-family: nabla;
+    background-color: rgba(0, 0, 0, 0.445);
+}
+
+.hour-body, .minute-body, .seconds-body{
+    min-width: 14rem;
+}
+
+@media screen and (max-width:900px) {
+    html{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:700px) {
+    html{
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    html{
+        font-size: 6px;
+    }
+}
+
